@@ -57,9 +57,9 @@ class x360SimpleApi {
 | Параметр | Тип данных | Описание |
 | :------ | :------ | :------ |
 | id | string |  |
-| planStart | int |  |
-| planEnd | int |  |
-| activeVersion | string |  |
+| planStart | int | Дата начала, передается в Unix Timestamp |
+| planEnd | int | Дата окончания, передается в Unix Timestamp |
+| activeVersion | string | Версия |
 
 ### Пример ответа
 
@@ -101,8 +101,8 @@ class x360SimpleApi {
 ### Параметры ответа  
 | Параметр | Тип данных | Описание |
 | :------ | :------ | :------ |
-| success | boolean |  |
-| result | string |  |
+| success | boolean | Параметр ответа |
+| result | string | Новая версия |
 
 ### Пример ответа
 
@@ -140,10 +140,10 @@ class x360SimpleApi {
 ### Параметры ответа  
 | Параметр | Тип данных | Описание |
 | :------ | :------ | :------ |
-| id | string |  |
-| num | int |  |
-| goods | string |  |
-| qty | int |  |
+| id | string | Идентификатор |
+| num | int | Количество |
+| goods | string | Товары |
+| qty | int | Качество |
 
 ### Пример ответа
 
@@ -217,9 +217,9 @@ class x360SimpleApi {
 ### Параметры ответа  
 | Параметр | Тип данных | Описание |
 | :------ | :------ | :------ |
-| success | boolean |  |
-| result[ ] | array |  |
-| result[fileid] | string |  |
+| success | boolean | Параметр ответа |
+| result[ ] | array | Данные |
+| result[fileid] | string | Новая версия |
 
 ### Пример ответа
 
