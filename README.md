@@ -218,7 +218,7 @@ class x360SimpleApi {
 | Параметр | Тип данных | Описание |
 | :------ | :------ | :------ |
 | success | boolean |  |
-| result[ ] | string |  |
+| result[ ] | array |  |
 | result[fileid] | string |  |
 
 ### Пример ответа
